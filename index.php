@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Ansible deployment</title>
+	<title>Sample evQueue project</title>
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 	<script src="evQueue.js"></script>
 <body>
@@ -45,11 +45,11 @@
 		});
 		
 		$(document).bind('evq-launch',function() {
-			$('#deploy').prop('disabled',true);
+			$('#launch').prop('disabled',true);
 		});
 		
 		$(document).bind('evq-terminated',function() {
-			$('#deploy').prop('disabled',false);
+			$('#launch').prop('disabled',false);
 		});
 	</script>
 </body>
